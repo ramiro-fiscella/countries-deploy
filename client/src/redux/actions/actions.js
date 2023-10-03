@@ -15,7 +15,7 @@ import axios from "axios";
 export const getCountries = () => {
   return async (dispatch) => {
     try {
-      const countriesData = await axios.get("http://localhost:5480/countries");
+      const countriesData = await axios.get("/countries");
 
       console.log(countriesData);
       const countries = countriesData.data;
@@ -29,9 +29,7 @@ export const getCountries = () => {
 export const getActivities = () => {
   return async (dispatch) => {
     try {
-      const activitiesData = await axios.get(
-        "http://localhost:5480/activities"
-      );
+      const activitiesData = await axios.get("/activities");
 
       console.log(activitiesData);
       const activities = activitiesData.data;
@@ -46,9 +44,7 @@ export const getActivities = () => {
 export const getCountryDetail = (id) => {
   return async (dispatch) => {
     try {
-      const countryData = await axios.get(
-        `http://localhost:5480/countries/${id}`
-      );
+      const countryData = await axios.get(`/countries/${id}`);
       console.log(countryData);
       const country = countryData.data;
 
@@ -83,10 +79,7 @@ export const setSortOption = (sortOption) => {
 export const createActivity = (activityData) => {
   return async (dispatch) => {
     try {
-      const response = await axios.post(
-        "http://localhost:5480/activities",
-        activityData
-      );
+      const response = await axios.post("/activities", activityData);
       dispatch({
         type: POST_ACTIVITY,
         payload: response.data,
