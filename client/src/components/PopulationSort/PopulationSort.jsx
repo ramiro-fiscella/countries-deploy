@@ -1,10 +1,10 @@
-import styles from "./PopulationSort.module.css";
+import styles from "./populationSort.module.css";
 
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { setSortOption } from "../../redux/actions/actions";
 
-const PopulationSort = () => {
+const populationSort = () => {
   const dispatch = useDispatch();
   const [isAscending, setIsAscending] = useState(true);
 
@@ -23,4 +23,4 @@ const PopulationSort = () => {
   );
 };
 
-export default PopulationSort;
+export default populationSort;
