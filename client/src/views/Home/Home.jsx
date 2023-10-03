@@ -12,7 +12,7 @@ import {
   ContinentFilter,
   PopulationSort,
   AlphSort,
-} from "../../components";
+} from "../../components/index";
 import styles from "./Home.module.css";
 import ActivityFilter from "../../components/ActivityFilter/ActivityFilter";
 
