@@ -13,6 +13,7 @@ import {
   populationSort,
   AlphSort,
 } from "../../components";
+import populationSort from "../../components/populationSort/populationSort";
 import styles from "./Home.module.css";
 import ActivityFilter from "../../components/ActivityFilter/ActivityFilter";
 
