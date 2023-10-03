@@ -10,10 +10,9 @@ import {
 import {
   CardContainer,
   ContinentFilter,
-  populationSort,
+  PopulationSort,
   AlphSort,
 } from "../../components";
-import populationSort from "../../components/populationSort/populationSort";
 import styles from "./Home.module.css";
 import ActivityFilter from "../../components/ActivityFilter/ActivityFilter";
 
@@ -89,7 +88,7 @@ const Home = () => {
         </div>
 
         <div className={styles.sortContainer}>
-          <populationSort />
+          <PopulationSort />
           <AlphSort />
         </div>
       </div>
