@@ -1,4 +1,4 @@
-import styles from "./populationSort.module.css";
+import styles from "./PopulationSort.module.css";
 
 import { useState } from "react";
 import { useDispatch } from "react-redux";
