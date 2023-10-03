@@ -1,0 +1,68 @@
+h1 {
+  text-transform: uppercase;
+}
+.mainContainer {
+  margin: 100px 5rem 0 5rem;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label {
+  margin: 20px auto 10px auto;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+form input {
+  width: 100%;
+  max-width: 334px;
+}
+form button {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+form button:hover {
+  box-shadow: 8px 8px #323231;
+  color: #323132;
+  background-color: #feffff;
+}
+form select {
+  text-align: center;
+  width: 100%;
+
+  max-width: 400px;
+}
+.errors {
+  color: #f1f3eb;
+  background-color: #323132;
+  padding: 3px 10px 5px 10px;
+  border-radius: 0 0 6px 6px;
+}
+
+.activityCountryList ul {
+  padding: 0;
+}
+.activityCountryList ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.removeButton {
+  width: 400px;
+  padding: 5px;
+  margin: 3px auto;
+  font-weight: 500;
+  border: 1px solid #323132;
+}
+form button:disabled {
+  cursor: not-allowed;
+}
+form button:disabled:hover {
+  background-color: #f1f3eb;
+  box-shadow: 8px 8px #b4b4b1;
+}

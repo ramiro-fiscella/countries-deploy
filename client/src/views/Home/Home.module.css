@@ -1,0 +1,74 @@
+.container {
+  margin-top: 120px;
+  max-width: 1920px;
+}
+
+.inputContainer {
+  position: fixed;
+  bottom: 40px;
+  display: flex;
+  width: 100vw;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.filterContainer select {
+  box-shadow: 5px 5px #323231;
+  background-color: #feffff;
+  margin: -1;
+}
+.sortContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 30px;
+}
+.sortContainer button {
+  box-shadow: 5px 5px #323231;
+  background-color: #feffff;
+  border: solid 3px #323132;
+  color: #323132;
+  cursor: pointer;
+  font-weight: 800;
+  text-transform: uppercase;
+
+  transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 50px auto 140px auto;
+}
+.pagination button {
+  background-color: #feffff;
+}
+
+.pagination button:first-child {
+  background-color: #feffff;
+  border-radius: 5px 0 0 5px;
+}
+.pagination button:last-child {
+  background-color: #feffff;
+  border-radius: 0 5px 5px 0;
+}
+.pagination button:hover {
+  background-color: #323132;
+  color: #feffff;
+}
+.pageNumber {
+  background-color: #feffff;
+  padding: 11px 30px;
+  border: solid 3px #323132;
+  color: #323132;
+  font-weight: 800;
+}

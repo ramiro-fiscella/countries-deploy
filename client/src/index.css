@@ -1,0 +1,128 @@
+/* paette {
+  black: #323231;
+  dark-gray: #B4B4B1;
+  light-gray: #DDDCD4;
+  white: #EDECE8;
+} */
+
+/* bg gray: dbdbdb */
+/* ocean blue: 314049 */
+/* earth yellow: d9c99c */
+
+* {
+  font-family: "Bricolage Grotesque", sans-serif;
+  max-width: 1920px;
+
+  margin: 0;
+}
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: #f1f3eb;
+
+  color: #323132;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #323132;
+  text-decoration: inherit;
+}
+
+button {
+  background-color: #f1f3eb;
+  padding: 15px 30px;
+  margin: -3px;
+  border: solid 3px #323132;
+  color: #323132;
+  cursor: pointer;
+  font-weight: 800;
+  text-transform: uppercase;
+
+  transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+select {
+  background-color: #f1f3eb;
+  padding: 15px 30px;
+  margin: -3px;
+  border: solid 3px #323132;
+  color: #323132;
+  cursor: pointer;
+  font-weight: 800;
+  text-transform: uppercase;
+
+  transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+input {
+  background-color: #f1f3eb;
+  padding: 15px 30px;
+  margin: -3px;
+  border: solid 3px #323132;
+  color: #323132;
+
+  text-align: center;
+
+  font-weight: 800;
+  text-transform: uppercase;
+
+  transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+input:focus {
+  outline: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #323132;
+  border-left: solid 3px #323132;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f1f3eb;
+  border: solid 3px #323132;
+  border-right: none;
+  height: 24px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f1f3eb;
+}
+
+::-moz-selection {
+  color: #323132;
+  background: #f1f3eb;
+}
+
+::selection {
+  color: #323132;
+  background: #f1f3eb;
+}
+ul li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+}
