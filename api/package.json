@@ -6,7 +6,7 @@
   "scripts": {
     "server": "node index.js",
     "api": "'Local API listening on PORT 3001' & json-server --watch api/db.json -p 3001 -q",
-    "start": "npm run server"
+    "start": "concurrently \"npm run server\" \"npm run api\""
   },
   "author": "",
   "license": "ISC",
