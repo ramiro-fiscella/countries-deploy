@@ -4,14 +4,14 @@ const { Sequelize } = require("sequelize");
 const fs = require("fs");
 const path = require("path");
 
-const DB_USER = process.env.DB_USER;
-const DB_PASSWORD = process.env.DB_PASSWORD;
-const DB_HOST = process.env.DB_HOST;
-const DB_DB = process.env.DB_DB;
-const DB_PORT = process.env.DB_PORT;
+const PGDATABASE = process.env.PGDATABASE;
+const PGHOST = process.env.PGHOST;
+const PGPASSWORD = process.env.PGPASSWORD;
+const PGPORT = process.env.PGPORT;
+const PGUSER = process.env.PGUSER;
 
 const sequelize = new Sequelize(
-  `postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_DB}`,
+  `postgresql://${PGUSER}:${PGPASSWORD}@${PGHOST}:${PGPORT}/${PGDATABASE}`,
   {
     logging: false,
     native: false,
