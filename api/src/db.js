@@ -15,7 +15,6 @@ const sequelize = new Sequelize(
   {
     logging: false,
     native: false,
-    dialectModule: pg,
   }
 );
 const basename = path.basename(__filename);
