@@ -1,11 +1,11 @@
 {
-  "name": "api",
+  "name": "server",
   "version": "1.0.0",
   "description": "Server Proyecto Individual",
   "main": "index.js",
   "scripts": {
-    "server": "node index.js",
-    "api": "'Local API listening on PORT 3001' & json-server --watch api/db.json -p 3001 -q",
+    "server": "nodemon index.js",
+    "api": "echo 'Local API listening on PORT 5000' & json-server --watch api/db.json -p 5000 -q",
     "start": "concurrently \"npm run server\" \"npm run api\""
   },
   "author": "",
