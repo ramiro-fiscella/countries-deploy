@@ -1,13 +1,13 @@
 import { Routes, Route, useLocation } from "react-router-dom";
+import axios from "axios";
 
 import { CountryDetail, Home, Landing, ActivityForm, ErrorPage } from "./views";
 import { NavBar } from "./components";
 
 import "./App.css";
 
-const URL = "countries-deploy-production.up.railway.app";
+const URL = "https://countries-deploy-production.up.railway.app/";
 
-import axios from "axios";
 axios.defaults.baseURL = URL;
 
 function App() {
