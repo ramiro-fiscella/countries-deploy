@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon index.js",
-    "start": "concurrently \"npm run server\" \"npm run api\""
+    "start": "npm run server"
   },
   "author": "",
   "license": "ISC",
