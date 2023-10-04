@@ -5,8 +5,10 @@ import { NavBar } from "./components";
 
 import "./App.css";
 
+const URL = process.env.URL;
+
 import axios from "axios";
-axios.defaults.baseURL = "https://countries-deploy-production.up.railway.app/";
+axios.defaults.baseURL = "URL";
 
 function App() {
   const location = useLocation();
