@@ -6,7 +6,7 @@ import { NavBar } from "./components";
 import "./App.css";
 
 import axios from "axios";
-axios.defaults.baseURL = "http://localhost:3001/";
+axios.defaults.baseURL = "https://countries-deploy-production.up.railway.app/";
 
 function App() {
   const location = useLocation();
