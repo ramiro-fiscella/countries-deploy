@@ -11,7 +11,8 @@ const PGPORT = process.env.PGPORT;
 const PGUSER = process.env.PGUSER;
 
 const sequelize = new Sequelize(
-  `postgresql://${PGUSER}:${PGPASSWORD}@${PGHOST}:${PGPORT}/${PGDATABASE}`,
+  "postgresql://postgres:TpVqyAEGzKaCooW8krsS@containers-us-west-33.railway.app:7717/railway",
+  // `postgresql://${PGUSER}:${PGPASSWORD}@${PGHOST}:${PGPORT}/${PGDATABASE}`,
   {
     logging: false,
     native: false,
