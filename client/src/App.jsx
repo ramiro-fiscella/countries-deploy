@@ -5,7 +5,7 @@ import { NavBar } from "./components";
 
 import "./App.css";
 
-const URL = process.env.URL;
+const URL = "countries-deploy-production.up.railway.app";
 
 import axios from "axios";
 axios.defaults.baseURL = URL;
