@@ -4,8 +4,7 @@
   "description": "Server Proyecto Individual",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "api": "json-server --watch api/db.json -p 5000 -q"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
