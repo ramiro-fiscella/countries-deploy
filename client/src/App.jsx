@@ -8,7 +8,7 @@ import "./App.css";
 const URL = process.env.URL;
 
 import axios from "axios";
-axios.defaults.baseURL = "URL";
+axios.defaults.baseURL = URL;
 
 function App() {
   const location = useLocation();
