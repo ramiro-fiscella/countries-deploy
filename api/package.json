@@ -4,8 +4,8 @@
   "description": "Server Proyecto Individual",
   "main": "index.js",
   "scripts": {
-    "api": "node index.js",
-    "start": "npm run server"
+    "start": "npm run server",
+    "api": "node index.js"
   },
   "author": "",
   "license": "ISC",
